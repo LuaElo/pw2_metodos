@@ -12,10 +12,11 @@ public class Livro {
         System.out.println("Resumo: " + resumo);
         System.out.println("Numero de Paginas: " + paginas);
         System.out.println("Nome do autor(a): " + autor);
-        System.out.println("--------");
+        System.out.println("-------");
     }
 
     void aplicarDesconto(double percentual){
         preco = preco - (preco * percentual);
     }
 }
+ 
