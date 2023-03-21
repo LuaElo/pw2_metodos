@@ -14,4 +14,8 @@ public class Livro {
         System.out.println("Nome do autor(a): " + autor);
         System.out.println("--------");
     }
+
+    void aplicarDesconto(double percentual){
+        preco = preco - (preco * percentual);
+    }
 }

@@ -9,6 +9,8 @@ public class LivroTeste {
        meuLivro.resumo = "bla bla bla bla bla";
        meuLivro.autor = "Eloah";
 
+        meuLivro.aplicarDesconto(0.1);
+
         meuLivro.exibirDados();
 
         Livro livroFavorito = new Livro();
@@ -17,6 +19,9 @@ public class LivroTeste {
         livroFavorito.paginas = 345;
         livroFavorito.preco = 45.00;
         livroFavorito.autor = "Luara";
+
+        livroFavorito.aplicarDesconto(0.25);
+
 
         livroFavorito.exibirDados();
 
