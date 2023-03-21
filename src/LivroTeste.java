@@ -10,6 +10,8 @@ public class LivroTeste {
        meuLivro.autor = "Eloah";
 
         meuLivro.aplicarDesconto(0.1);
+        meuLivro.aplicarTaxa(0.8);
+
 
         meuLivro.exibirDados();
 
@@ -21,7 +23,7 @@ public class LivroTeste {
         livroFavorito.autor = "Luara";
 
         livroFavorito.aplicarDesconto(0.25);
-
+        livroFavorito.aplicarTaxa(0.8);
 
         livroFavorito.exibirDados();
 
